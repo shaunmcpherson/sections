@@ -13,8 +13,8 @@ html {
 }
 
 h2 {
-  margin: 0;
-  padding: 1em;
+  margin-top: 1em;
+  padding: 0;
 }
 
 img {
@@ -30,4 +30,11 @@ p {
 a {
   margin: 0;
   padding: .4em .75em .5em;
+  border-top: 3px solid #666;
+  border-bottom: 3px solid #666;
+  border-left: 3px solid #666;
+  border-right: 3px solid #666;
+  border-radius: 8px;
+  color: #666;
+  font-family: sans-serif;
 }
