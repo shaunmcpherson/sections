@@ -28,13 +28,20 @@ p {
 }
 
 a {
+  display: inline-block;
   margin: 0;
   padding: .4em .75em .5em;
-  border-top: 3px solid #666;
-  border-bottom: 3px solid #666;
-  border-left: 3px solid #666;
-  border-right: 3px solid #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  border-left: 3px solid #333;
+  border-right: 3px solid #333;
   border-radius: 8px;
   color: #666;
   font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #333;
+  color: #eee9de;
 }
