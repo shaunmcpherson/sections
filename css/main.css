@@ -26,9 +26,7 @@ body {
 img {
   float: left;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  display: inline;
+  display: block;
 }
 
 .cards div {
@@ -63,7 +61,7 @@ img {
 .btn {
   display: inline-block;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   padding: .4em .75em .5em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
