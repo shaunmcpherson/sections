@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
   padding: 0;
   background-color: #eee9de;
   font-family: Lato, sans-serif;
@@ -12,22 +10,56 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
-  margin-top: 1em;
+body {
   padding: 0;
+  margin: 0;
+}
+
+.pyramid section {
+  margin: 0;
+  padding: 2em 0;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
 }
 
 img {
-  width: 380px;
-}
-
-p {
+  float: left;
+  max-width: 100%;
   margin: 0;
   padding: 0;
-  max-width: 380px;
 }
 
-a {
+.cards div {
+  display: inline-block;
+  margin: 0;
+  max-width: 25em;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.content {
+  margin: 0;
+  padding: 0 5rem;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: left;
+}
+
+.content p {
+  margin: 0;
+  padding: 1.25rem 0 1.5rem;
+  max-width: 25em;
+  display: inline-block;
+  text-align: left;
+}
+
+.btn {
   display: inline-block;
   margin: 0;
   padding: .4em .75em .5em;
@@ -39,9 +71,10 @@ a {
   color: #666;
   font-family: sans-serif;
   text-decoration: none;
+  text-align: left;
 }
 
-a:hover {
+.btn:hover {
   background-color: #333;
   color: #eee9de;
 }
