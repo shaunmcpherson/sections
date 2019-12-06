@@ -25,9 +25,10 @@ body {
 
 img {
   float: left;
-  max-width: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 
 .cards div {
